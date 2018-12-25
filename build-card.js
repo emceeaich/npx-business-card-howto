@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/node
 
 // require Node.JS native modules
 const path = require('path')
