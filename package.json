@@ -1,10 +1,10 @@
 {
-  "name": "ace-the-cat",
+  "name": "emceeaich",
   "version": "0.0.1",
-  "description": "Ace the cat's business card",
+  "description": "Emma Humphries' business card",
   "main": "bin/card.js",
   "bin": {
-    "ace-the-cat": "./bin/card.js"
+    "emceeaich": "./bin/card.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,23 +16,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nodebotanist/npx-business-card-howto.git"
+    "url": "git+https://github.com/emceeaich/npx-business-card-howto.git"
   },
   "keywords": [
     "npx",
     "business",
     "card"
   ],
-  "author": "nodebotanist <the@nodebotani.st>",
+  "author": "Emma Humphries <ech@emmah.net>",
   "license": "MIT",
   "files": [
     "bin/card.js",
     "bin/output"
   ],
   "bugs": {
-    "url": "https://github.com/nodebotanist/npx-business-card-howto/issues"
+    "url": "https://github.com/emceeaich/npx-business-card-howto/issues"
   },
-  "homepage": "https://github.com/nodebotanist/npx-business-card-howto#readme",
+  "homepage": "https://github.com/emceeaich/npx-business-card-howto#readme",
   "devDependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",

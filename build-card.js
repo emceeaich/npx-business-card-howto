@@ -17,14 +17,12 @@ const boxenOptions = {
 
 const newLine = '\n'
 
-const output = chalk.blue(`                Hello, Twitch! I am Ace the 😼`) + newLine + newLine +
-chalk.white(`    Favorite Food: `) + chalk.blue('Plastic Wrap!') + newLine +
-chalk.white('Favorite Nap Spot: ') + chalk.cyan(`Kas' keyboard. Or tablet. Or book. Or bots.`) + newLine + newLine + 
-chalk.green('This is from a tutorial about making '+ newLine + 'your own npx cards') + newLine +
-chalk.magenta('The tutorial can be found at :') + newLine +
-chalk.blue.bold('https://github.com/nodebotanist/npx-business-card-howto') + newLine +
-chalk.white('and this was all written on Twitch and with 💜 by ') + newLine +
-chalk.yellow('nodebotanist ') + newLine +
-chalk.green('run `npx nodebotanist` to learn more!')
+const output = chalk.white(`Emma Humphries ☕🧞💻`) + newLine + newLine +
+chalk.white('Engineering, Process and Program Management for the Open Web') + newLine + newLine + 
+chalk.green('Birdsite @triagegirl') + newLine +
+chalk.green('Mastodon @emceeaich@mastodon.social') + newLine +
+chalk.green('GitHub @emceeaich') + newLine +
+chalk.green.bold('https://emmas.site/') + newLine +
+chalk.green.bold('https://emmah.net/') + newLine 
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.magenta(boxen(output, boxenOptions)))
