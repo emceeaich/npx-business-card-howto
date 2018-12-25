@@ -1,6 +1,6 @@
 {
   "name": "emceeaich",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Emma Humphries' business card",
   "main": "bin/card.js",
   "bin": {
